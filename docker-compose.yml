@@ -1,0 +1,15 @@
+version: '3'
+services:
+  redis:
+    image: 'redis'
+  app:
+    image: 'node:18'
+    ports:
+      - '3000:3000'
+    volumes:
+      - .:/code
+    depends_on:
+      - redis
+    working_dir: /code
+    command: >
+      bash -c "if [ ! -f "./node_modules" ]; then npm install; fi && npm run start"

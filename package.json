@@ -1,0 +1,25 @@
+{
+  "name": "caching-with-redis",
+  "version": "1.0.0",
+  "description": "This is an Express.js app used to demonstrate how to implement Redis.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolandojavier/caching-with-redis.git"
+  },
+  "author": "Rolando Ramos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolandojavier/caching-with-redis/issues"
+  },
+  "homepage": "https://github.com/rolandojavier/caching-with-redis#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "redis": "^4.5.1"
+  }
+}
