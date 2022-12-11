@@ -39,3 +39,5 @@ In another terminal, start the client
 ```
 redis-cli
 ```
+
+Redis Documentation: https://redis.io/docs/
